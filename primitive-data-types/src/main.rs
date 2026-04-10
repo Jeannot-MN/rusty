@@ -6,7 +6,7 @@ fn main() {
     println!("Signed: {}", x);
     println!("Unsigned: {}", y);
 
-    
+
     // Floating-point numbers
     let pi: f32 = 3.14;
     let e: f64 = 2.71828;
@@ -21,4 +21,10 @@ fn main() {
 
     println!("Is Rust fun? {}", is_rust_fun);
     println!("Is coding hard? {}", is_coding_hard);
+
+
+    // Characters
+    let letter: char = 'A';
+
+    println!("First letter of the alphabet is: {}", letter);
 }

@@ -9,13 +9,11 @@ Rust provide both signed (`i8`, `i16`, `i32`, `i64`, `i128`) and unsigned interg
 Decimal numbers(`f32`, `f64`)
 
 - **Booleans**: 
-`true` or `false`
+`true` or `false`(`bool`)
 
-- **Characters**: A single Unicode character, e.g. `'a'`
-- **Tuples**: Fixed-size collections of multiple types
-- **Arrays**: Fixed-size collections of the same type
+- **Characters**: A single Unicode character (`char`), e.g. `'a'`
 
-Understanding these data types is fundamental to working effectively in Rust.
+The are the 4 primitive data types in Rust.
 
 ---
 
