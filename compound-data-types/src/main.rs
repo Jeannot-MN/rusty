@@ -4,4 +4,11 @@ fn main() {
     println!("Numbers: {:?}", numbers);
 
     println!("The first number is {}.", numbers[0]);
+
+
+    let human: (&str, i32) = ("Alice", 30);
+    let complex_tuple : (&str, (&str, [i32; 5])) = ("Bob", ("Alice", numbers)); 
+
+    println!("Human: {:?}", human);
+    println!("Complex Tuple: {:?}", complex_tuple);
 }
