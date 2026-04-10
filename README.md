@@ -17,6 +17,21 @@ The are the 4 primitive data types in Rust.
 
 ---
 
+## Chapter 2: Compound Data Types
+- **Arrays**: 
+Fixed size collection of elements of the same type(homogeneous).
+`let numbers : [i32; 5] = [1,2,3,4,5]`: Notice that the size is specified on declation, 5 in this case.
+
+- **Tuples**: 
+Fixed size collection of heterogeneous elements.
+`let human : (String, i32, bool) = ("Alice", 25, false)`
+
+- **Slices**: 
+
+- **Strings (Slice String)**:
+
+---
+
 ## Appendix
 
 ### Command
